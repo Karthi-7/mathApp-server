@@ -5,7 +5,7 @@ const cookieParser = require('cookie-parser');
 //import routes
 const operationRoutes=require("./routes/operation.routes")
 const authRoutes=require("./routes/auth.routes")
-const {main}=require("../backend/config/db")
+const {main}=require("./config/db")
 
 
 var bodyParser = require('body-parser')
